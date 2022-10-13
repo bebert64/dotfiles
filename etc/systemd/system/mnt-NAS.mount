@@ -1,0 +1,10 @@
+[Unit]
+Description=NAS
+
+[Mount]
+What=192.168.0.63:/volume1/NAS
+Where=/mnt/NAS
+Type=nfs
+
+[Install]
+WantedBy=multi-user.target

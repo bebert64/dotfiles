@@ -1,0 +1,8 @@
+[Unit]
+Description=Automount NAS
+
+[Automount]
+Where=/mnt/NAS
+
+[Install]
+WantedBy=multi-user.target
