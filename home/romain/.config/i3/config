@@ -45,7 +45,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec --no-startup-id /usr/bin/urxvt
+bindsym $mod+Return exec --no-startup-id /usr/bin/kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -221,7 +221,6 @@ bindsym $mod+Shift+n exec nautilus
 assign [class="Nautilus"] $ws5
 bindsym $mod+Shift+p exec pycharm
 assign [class="jetbrains-pycharm-ce"] $ws4
-bindsym $mod+Shift+w exec "sh ./test-wall"
 bindsym $mod+Shift+u exec "i3-msg 'workspace 9; append_layout ~/.i3/workspace-10.json'"
 #bindsym $mod+Shift+u exec "sh cmatrix"
 bindsym $mod+o exec --no-startup-id "i3lock -B 10 -k"
