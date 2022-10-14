@@ -53,8 +53,8 @@ bindsym $mod+Shift+q kill
 # start dmenu (a program launcher)
 # bindsym $mod+d exec --no-startup-id dmenu_run
 # A more modern dmenu replacement is rofi:
-bindsym $mod+d exec zsh -c "rofi -modi drun#window#run -show run"
-#bindsym $mod+d exec zsh -c "rofi -show run"
+bindsym $mod+d exec zsh -c "rofi -modi drun#window#run -show drun -show-icons -theme /home/romain/.config/rofi/config/launcher.rasi"
+#bindsym $mod+d exec zsh -c "rofi -modi drun#window#run -show drun"
 
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.

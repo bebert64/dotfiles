@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=urxvt (tabbed)
+Comment=An unicode capable and tabbed rxvt clone
+Exec=urxvt-tabbed
+Icon=/home/romain/.icons/terminal.png
+Terminal=false
+Type=Application
+Categories=System;TerminalEmulator;

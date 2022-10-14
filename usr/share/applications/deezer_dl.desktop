@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=Deezer DL
+GenericName=Music Player by DB
+Exec=zsh -c "~/scripts/deezer_dl /home/romain/Librairie.dddb"
+Icon=~/.icons/DeezerDL.png
+Terminal=false
+Type=Application
+Categories=Multimedia
+
+
