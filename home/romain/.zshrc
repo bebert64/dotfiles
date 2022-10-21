@@ -164,8 +164,14 @@ alias c="code ."
 # ( ) # Hide shell job control messages.
 # Not supported in the "fish" shell.
 alias dotgit="git --git-dir=$HOME/dotfiles/ --work-tree=/"
-alias ccef="conda env create -f"
-alias crm="conda env remove"
+alias cecf="conda env create -f"
+alias cer="conda env remove"
+alias mnt-sdb="ifuse --documents jp.tatsumi-sys.sidebooks /mnt/Ipad-SideBooks"
+alias umnt-sdb="fusermount -u /mnt/Ipad-SideBooks"
+alias mnt-cky="ifuse --documents com.mike-ferenduros.Chunky-Comic-Reader /mnt/Ipad-Chunky"
+alias umnt-cky="fusermount -u /mnt/Ipad-Chunky"
+alias mnt-mga="ifuse --documents com.wayudaorerk.mangastormall /mnt/Ipad-MangaStorm"
+
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
